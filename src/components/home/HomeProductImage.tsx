@@ -1,5 +1,5 @@
 "use client";
-// Product image with a styled fallback when bluemax.jpg is not yet in public/.
+// Product image with a styled fallback when bluemax.png is not yet in public/.
 
 import Image from "next/image";
 import { useState } from "react";
@@ -30,7 +30,7 @@ export default function HomeProductImage() {
           </svg>
         </div>
         <p className="text-sm font-medium text-slate-600">
-          Add <code className="text-blue-700">public/bluemax.jpg</code> for your
+          Add <code className="text-blue-700">public/bluemax.png</code> for your
           product photo
         </p>
       </div>
@@ -44,7 +44,7 @@ export default function HomeProductImage() {
     >
       <Image
         id="imgProductBluemax"
-        src="/bluemax.jpg"
+        src="/bluemax.png"
         alt="Bluemax sewing machine"
         fill
         className="object-cover"
